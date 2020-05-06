@@ -1,8 +1,12 @@
 body {
-    background-color: rgb(190, 195, 197);
+    background-color: rgb(231, 236, 238);
   }
   
   h1 {
     color: rgba(22, 22, 102, 0.575);
     margin-left: 20px;
   }
+
+p.title {
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
