@@ -1,12 +1,61 @@
+
 body {
     background-color: rgb(231, 236, 238);
   }
   
-  h1 {
-    color: rgba(22, 22, 102, 0.575);
+h1 {
+    color: rgba(13, 13, 24, 0.815);
     margin-left: 20px;
   }
 
-p.title {
-  font-family: Verdana, Geneva, Tahoma, sans-serif
+@font-face {
+  font-family: 'Playfair';
+  src: url('PlayfairDisplay-VariableFont_wght.woff') format('woff');
 }
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('Montserrat-Medium.woff') format('woff');
+}
+
+h1 {
+  font-family: 'Playfair';
+  font-size: xx-large;
+}
+
+.title { 
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-bottom: 10px;
+}
+
+ul.contact {
+  font-family: 'Montserrat';
+  padding-left: 100px;
+  list-style-type: none;
+  color: rgba(30, 30, 49, 0.815);
+
+}
+
+li {
+  padding-left: 20px;
+  padding-bottom: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(51, 51, 83, 0.815);
+  
+}
+
+a:hover {
+  color: rgb(25, 34, 28);
+}
+
+
+
+
+
+
+
+
